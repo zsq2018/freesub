@@ -12,17 +12,13 @@
       "tls": {
         "enabled": true,
         "server_name": "estproxy4.lockdwn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "insecure": false
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
-      "server": "cabinet.wwwinternetvideo.click",
+      "server": "faq.wwwinternetvideo.click",
       "server_port": 443,
       "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
       "tls": {
