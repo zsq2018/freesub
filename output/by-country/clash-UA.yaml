@@ -5,19 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
-  server: 89.47.55.9
-  port: 8443
+  server: 104.24.31.89
+  port: 443
   udp: true
   type: vless
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   tls: true
-  reality-opts:
-    public-key: TWaatavWGcWV-E7c4AXmBXypLKJzm6eR3FGG61spayQ
-  servername: www.sony.com
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  skip-cert-verify: false
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.nastaran.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
