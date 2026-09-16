@@ -4,22 +4,28 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "www.shopify.com",
+      "server": "104.25.30.10",
       "server_port": 443,
-      "uuid": "3aa71202-a099-49c1-99fc-6662f3335369",
-      "security": "auto",
+      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
       "tls": {
         "enabled": true,
-        "server_name": "yoga-suggesting-recording-calls.trycloudflare.com",
-        "insecure": false
+        "server_name": "de14.69lover.my",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/3aa71202-a099-49c1-99fc-6662f3335369-vm",
+        "path": "/api/v2/6c316c769ad6853c/stream",
         "headers": {
-          "Host": "yoga-suggesting-recording-calls.trycloudflare.com"
+          "Host": "de14.69lover.my"
         }
       }
     },
