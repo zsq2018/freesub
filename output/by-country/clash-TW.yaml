@@ -5,14 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - xiaohe
-  server: 165.154.195.38
-  port: 35034
-  udp: true
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
   server: 130.211.240.128
   port: 443
   udp: true
@@ -24,7 +16,23 @@ proxies:
     short-id: d74a6321deec9f31
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
+  server: 103.115.109.49
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2
+  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
+  server: 160.187.100.109
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
   server: 35.201.230.136
   port: 443
   udp: true
@@ -37,35 +45,31 @@ proxies:
     short-id: 5e13a6d43d0644c9
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
-  server: vpn-tw-002.fastervpn.world
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
-  server: 103.115.109.49
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2🇨🇳
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 06 - xiaohe
-  server: 104.199.134.231
-  port: 28364
+  server: 35.194.157.16
+  port: 43450
   udp: true
   type: vless
-  uuid: 3a62a0c2-ba80-43a9-b757-9aca88b0552e
+  uuid: 64d77a12-ad6b-4d85-a349-bd287535af1c
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: NPhCET0GkjSZuKg4vWsPHLvjYGHW9w99Ucxvavu0-1I
-    short-id: 7241c359c2dfab
-  servername: www.sony.com
-  client-fingerprint: random
+    public-key: HNPJBiUbqYVC3ylvu1GA7fCHLTaHO7S13Bex1nm0O1o
+    short-id: e65d010354bdad73
+  servername: www.amd.com
+  client-fingerprint: firefox
+- name: 🇹🇼 中国台湾 (Taiwan) 06 - xiaohe
+  server: 35.201.181.122
+  port: 443
+  udp: true
+  type: vless
+  uuid: 22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2
+  tls: true
+  reality-opts:
+    public-key: PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0
+    short-id: 32f66f37df3f58d2
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇹🇼 中国台湾 (Taiwan) 07 - xiaohe
   server: 104.199.219.172
   port: 40800
@@ -78,20 +82,8 @@ proxies:
     public-key: zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo
     short-id: 186e4c2732d61a3d
   servername: www.intel.com
-  client-fingerprint: ios
+  client-fingerprint: random
 - name: 🇹🇼 中国台湾 (Taiwan) 08 - xiaohe
-  server: 35.201.181.122
-  port: 443
-  udp: true
-  type: vless
-  uuid: 22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2
-  tls: true
-  reality-opts:
-    public-key: PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0
-    short-id: 32f66f37df3f58d2
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 09 - xiaohe
   server: 35.201.163.218
   port: 30837
   udp: true
@@ -103,21 +95,7 @@ proxies:
     public-key: LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo
     short-id: 97101ba788915e5a
   servername: www.sony.com
-  client-fingerprint: firefox
-- name: 🇹🇼 中国台湾 (Taiwan) 10 - xiaohe
-  server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
-  port: 443
-  udp: true
-  type: vmess
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -131,8 +109,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 06 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 07 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 08 - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 09 - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -146,7 +122,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 06 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 07 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 08 - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 09 - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 10 - xiaohe
 rules:
 - MATCH,PROXIES
