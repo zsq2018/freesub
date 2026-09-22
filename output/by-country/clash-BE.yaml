@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
-  server: 213.176.112.136
-  port: 5222
+- name: 🇧🇪 比利时 (Belgium) 01 - xiaohe
+  server: 141.98.233.6
+  port: 443
   udp: true
   type: vless
-  uuid: 8d955d71-ed5d-4f4c-ae68-42d120f06861
+  uuid: b2593749-691c-428c-9481-14979cba3446
   tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  servername: xi.tbv.ccwu.cc
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+      Host: xi.tbv.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,35 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 188.114.98.134
+  server: 162.159.43.187
+  port: 80
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  server: www.tpg.com
   port: 443
   udp: true
   type: vless
-  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: true
-  servername: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
+  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 172.64.155.209
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 4ff70740-8c80-48ae-985f-2afe4924e908
-  tls: true
-  servername: pubb.clnahanpnln.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: pubb.clnahanpnln.workers.dev
+      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   server: 91.240.86.70
   port: 22443
@@ -43,19 +38,20 @@ proxies:
   sni: hy.quattro-tech.ru
   skip-cert-verify: true
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 46.8.200.91
-  port: 443
+  server: 5.129.238.144
+  port: 8443
   udp: true
   type: vless
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   tls: true
-  servername: cf3.rumedia-cdn.com
+  servername: xinnusvpn.duckdns.org
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /cdn/v3/live
+    path: /wsnl
     headers:
-      Host: cf3.rumedia-cdn.com
+      Host: xinnusvpn.duckdns.org
 proxy-groups:
 - name: PROXIES
   type: select
