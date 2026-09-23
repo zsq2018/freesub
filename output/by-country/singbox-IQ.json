@@ -6,21 +6,7 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9",
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
-        "headers": {
-          "Host": "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇶 IQ 02 - xiaohe",
-      "server": "185.255.179.11",
+      "server": "193.8.215.96",
       "server_port": 9443,
       "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
       "tls": {
@@ -29,7 +15,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
@@ -42,16 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe",
-        "🇮🇶 IQ 02 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe",
-        "🇮🇶 IQ 02 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

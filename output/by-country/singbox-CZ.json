@@ -4,15 +4,18 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe",
-      "server": "104.25.155.45",
+      "type": "trojan",
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "188.114.96.8",
       "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-4eef5adc237a",
+      "password": "Telegram_healer_config",
       "tls": {
         "enabled": true,
-        "server_name": "r5zenrelur2s.pqzdileiu8es.workers.dev",
+        "server_name": "y9p34JPJmQJazaYpf.pIIwDDIlxJcQEHr17af22U7XK-yu.workeRS.Dev",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,9 +23,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/stream/PANEL_ZEUS/4eef5adc237a/loc-1",
+        "path": "/tr/1nWXnOaq1ajP7PKxbRS7Sdck48oy?ed=2560",
         "headers": {
-          "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
+          "Host": "y9p34jpjmqjazaypf.piiwddilxjcqehr17af22u7xk-yu.workers.dev"
         }
       }
     },
@@ -31,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
