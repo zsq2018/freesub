@@ -4,30 +4,27 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇶 IQ 01 - xiaohe
-  server: 193.8.215.96
-  port: 9443
+- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  server: 185.71.219.128
+  port: 2052
   udp: true
   type: vless
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  uuid: f4ade6db-3c64-4939-9f32-788b87a9392f
   tls: true
-  servername: hub-de-03.hanvpn.cc
+  servername: 185.71.219.128
   skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: de03-grpc-8e47a
+  client-fingerprint: ios
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 rules:
 - MATCH,PROXIES

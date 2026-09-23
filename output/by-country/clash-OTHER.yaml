@@ -5,34 +5,34 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.64.152.23
+  server: 188.114.97.6
   port: 443
   udp: true
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
+  sni: www.pleadcourt.org
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /assignment
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 172.64.152.23
+  server: 188.114.97.6
   port: 443
   udp: true
   type: trojan
   password: humanity
-  sni: www.calmlunch.com
+  sni: www.pleadcourt.org
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /assignment
 - name: 🌐 其他地区 (Other) 03 - xiaohe
-  server: 172.64.152.23
+  server: 104.17.121.71
   port: 443
   udp: true
   type: trojan
   password: humanity
-  sni: www.multiplydose.com
+  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
