@@ -29,7 +29,7 @@ proxies:
     public-key: gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk
     short-id: 0ad08b47f498efd2
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
   server: 143.42.46.37
   port: 25605
