@@ -53,7 +53,7 @@
       "tls": {
         "enabled": true,
         "server_name": "ie.tronsg.com",
-        "insecure": true
+        "insecure": false
       }
     },
     {
