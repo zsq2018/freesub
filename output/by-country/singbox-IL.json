@@ -6,13 +6,6 @@
     {
       "type": "vless",
       "tag": "🇮🇱 以色列 (Israel) 01 - xiaohe",
-      "server": "s11.shahankhan.ir",
-      "server_port": 8080,
-      "uuid": "6fddf57a-313c-4d4a-8ae1-939b207a1588"
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇱 以色列 (Israel) 02 - xiaohe",
       "server": "185.95.231.156",
       "server_port": 443,
       "uuid": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
@@ -30,6 +23,13 @@
           "short_id": "a3a578ab"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇱 以色列 (Israel) 02 - xiaohe",
+      "server": "s11.shahankhan.ir",
+      "server_port": 8080,
+      "uuid": "6fddf57a-313c-4d4a-8ae1-939b207a1588"
     },
     {
       "type": "selector",
