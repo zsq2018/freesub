@@ -12,11 +12,7 @@
       "tls": {
         "enabled": true,
         "server_name": "estproxy4.lockdwn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "insecure": false
       }
     },
     {
@@ -26,7 +22,11 @@
       "server_port": 443,
       "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "estproxy4.lockdwn.com"
+        }
       }
     },
     {
